@@ -1,6 +1,7 @@
 # Cigniti
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3. It has angular routing along with firebase authntecation.
+You can use any email id and password should be greater then or equalt to 6 characters. 
 
 ## Development server
 
