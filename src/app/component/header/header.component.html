@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <h1>Cigniti Demo</h1>
+      <span class="menu-spacer"></span>
+      <div class="title-links">
+        <a mat-button [routerLink]="'/home'"> Home </a> | 
+        <a mat-button [routerLink]="'/about'"> About </a> | 
+        <a mat-button [routerLink]="'/contact'"> Contacts </a> 
+  
+      </div>
+      <span class="example-spacer"></span>
+      <a *ngIf="!currentUser" mat-button [routerLink]="'/login'"> Login </a>
+      <a *ngIf="currentUser" mat-button [routerLink]="'/profile'"> Profile </a>
+      <a *ngIf="currentUser" mat-button (click)="logout()"> Logout </a>
+    </mat-toolbar-row>
+  </mat-toolbar>

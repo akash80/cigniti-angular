@@ -1,0 +1,10 @@
+.sample-card {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .sample-full-width {
+    width: 100%;
+  }

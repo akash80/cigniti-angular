@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyBnHfvAVD8AFUACHMLavRi6zDLlgBzThAI",
+    authDomain: "signiti-demo.firebaseapp.com",
+    projectId: "signiti-demo",
+    storageBucket: "signiti-demo.appspot.com",
+    messagingSenderId: "627332907831",
+    appId: "1:627332907831:web:b3b7603141cc220b4a10b2",
+    measurementId: "G-834CN0VM1H"
+  }
 };
 
 /*
